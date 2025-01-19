@@ -1,0 +1,33 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section.noticia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.noticia > h1, .noticia > h2 {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+}
+
+.noticia h1 {
+    font-size: 3em;
+    color: rgb(0, 110, 255);
+}
+
+#main section img {
+    width: 40%;
+
+}
